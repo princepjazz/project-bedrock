@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: retail-app-config
+  namespace: retail-app
+data:
+  MYSQL_HOST: "catalog-db"
+  MYSQL_PORT: "3306"
+  MYSQL_DB: "catalogue"
+  POSTGRES_HOST: "orders-db"
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: "orders"
+  DYNAMODB_TABLE: "project-bedrock-carts"
+  AWS_REGION: "us-east-1"
