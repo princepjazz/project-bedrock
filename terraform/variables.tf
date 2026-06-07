@@ -77,3 +77,4 @@ variable "postgres_password" {
   type        = string
   sensitive   = true
 }
+# managed by terraform
