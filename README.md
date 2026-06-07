@@ -35,3 +35,4 @@ http://k8s-retailap-retailap-3c6aa53d7a-1849148873.us-east-1.elb.amazonaws.com
 ## Grading Credentials
 - IAM User: bedrock-dev-view
 - Console URL: https://884028226614.signin.aws.amazon.com/console
+# Testing CI/CD pipeline
